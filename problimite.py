@@ -5,8 +5,8 @@ def problimite(N, Q, R, a, b, alpha, beta):
     h = (b - a) / (N + 1)
     
     # Q et R doivent être des tableaux NumPy pour que l'opération vectorisée fonctionne
-    Q = np.array(Q, dtype=float)
-    R = np.array(R, dtype=float)
+    #Q = np.array(Q, dtype=float)
+    #R = np.array(R, dtype=float)
     
     D = -2.0 - Q * (h**2)
     I = np.ones(N - 1)
