@@ -22,7 +22,6 @@ def solution(x):
     B2 = (T - Ta) / (1 - np.exp(-2 * k * L))
     B1 = (T - Ta) - B2
 
-
     return Ta + B1 * np.exp(k * x) + B2 * np.exp(-k * x)
 
 h1 = 1.0
